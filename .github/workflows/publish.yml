@@ -19,3 +19,9 @@ jobs:
         with:
           ## Add your own personal access token to your Github Repository secrets and reference it here.
           personal_access_token: ${{ secrets.REGISTRY_ACCESS_TOKEN }}
+
+
+class Improvement:
+    """性能改进。"""
+    def __init__(self):
+        self.optimized = True
